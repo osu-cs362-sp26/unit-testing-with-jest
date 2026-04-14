@@ -2,7 +2,12 @@
   "name": "unit-testing-with-jest",
   "version": "1.0.0",
   "description": "Unit Testing and the Jest Testing Framework",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "author": "Hess <hessro@oregonstate.edu>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
 }
