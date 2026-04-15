@@ -20,7 +20,8 @@ test("Navigator generates correct URL when navigating to /about", function () {
     const path = "/about"
     const nav = new Navigator(baseUrl)
     nav.goTo(path)
-    expect(nav.url()).toBe(baseUrl + path)
+    // expect(nav.url()).toBe(baseUrl + path)
+    expect(nav.url()).toBe("http://www.example.com/about")
 })
 
 
